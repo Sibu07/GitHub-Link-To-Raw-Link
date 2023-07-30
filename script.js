@@ -1,6 +1,7 @@
 function convertToRaw() {
   const githubLink = document.getElementById('githubLink').value;
   const rawLink = githubLink.replace('github.com', 'raw.githubusercontent.com');
+  rawLink = rawLink.replace('/blob', ''); // Remove '/blob' from the link if present
   document.getElementById('rawLink').innerText = rawLink;
   document.getElementById('copyBtn').classList.remove('hide');
 }
