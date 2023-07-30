@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Link to Raw Link Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GitHub Link to Raw Link Converter</h1>
+    <input type="text" id="githubLink" placeholder="Enter GitHub link">
+    <button onclick="convertToRaw()">Convert to Raw</button>
+    <div class="output-box">
+      <p id="rawLink"></p>
+      <button onclick="copyToClipboard()" id="copyBtn" class="hide">Copy Raw Link</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
