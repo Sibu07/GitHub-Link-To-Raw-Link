@@ -21,8 +21,12 @@ h1 {
   margin-bottom: 20px;
 }
 
+.input-container {
+  display: flex;
+}
+
 input {
-  width: 100%;
+  flex: 1;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -30,7 +34,6 @@ input {
 }
 
 button {
-  width: 100%;
   padding: 10px;
   background-color: #007BFF;
   color: #fff;
