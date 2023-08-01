@@ -16,3 +16,9 @@ function copyToClipboard() {
   document.body.removeChild(textarea);
   alert('Copied to clipboard!\n\n' + rawLink);
 }
+
+function clearInput() {
+  document.getElementById('githubLink').value = '';
+  document.getElementById('rawLink').innerText = '';
+  document.getElementById('copyBtn').classList.add('hide');
+}
