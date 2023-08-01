@@ -109,13 +109,13 @@ button:hover {
   input {
     margin-right: 0;
     margin-bottom: 10px;
-    width: 100%;
+    width: 95%;
   }
 
   button {
     margin: 0 auto;
     display: block;
-    width: 95%;
+    width: 100%;
   }
 
   #rawLink {
